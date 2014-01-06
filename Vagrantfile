@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 #
-#　Step to create box 
+#　Usage: Step to create my custom box. 
 #
 # * Add basebox.
 #
@@ -23,6 +23,7 @@
 #        $ yum install -y libxml2-devel
 #        $ yum install -y libxslt-devel
 #        $ yum install -y openssl
+#
 # * vagrant package
 #
 #        $ vagrant package --output CentOS-6.5-x86_64.box
