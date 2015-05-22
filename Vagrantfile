@@ -32,7 +32,7 @@ VAGRANTFILE_API_VERSION = "2"
 #
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = "centos-6.6-x86_64.box"
+  config.vm.box = "centos-7.0"
 
   config.vm.provider :virtualbox do |vb|
     vb.gui = false
