@@ -2,11 +2,7 @@
 # vi: set ft=ruby :
 
 #
-#　Usage: Step to create my custom box. 
-#
-# * Add basebox.
-#
-#        $ vagrant box add centos-6.3-minimal https://dl.dropbox.com/u/7225008/Vagrant/CentOS-6.3-x86_64-minimal.box
+#　Usage: Step to create my custom box.
 #
 # * vagrant up
 #
@@ -36,10 +32,10 @@ VAGRANTFILE_API_VERSION = "2"
 #
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = "centos-6.3-minimal"
+  config.vm.box = "centos-6.6-x86_64.box"
 
   config.vm.provider :virtualbox do |vb|
-    vb.gui = true
+    vb.gui = false
   end
 
 end
