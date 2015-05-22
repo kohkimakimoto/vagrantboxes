@@ -22,7 +22,7 @@
 #
 # * vagrant package
 #
-#        $ vagrant package --output CentOS-6.5-x86_64.box
+#        $ vagrant package
 
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
