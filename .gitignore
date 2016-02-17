@@ -5,3 +5,4 @@ Thumbs.db
 .tags*
 ._*
 .vagrant
+*.box
